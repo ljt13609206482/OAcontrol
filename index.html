@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>OAControl管理登录 - </title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="login">
+    <div class="box png">
+        <div class="logo png">
+            OAControl 管理平台登录
+        </div>
+        <div class="input">
+            <div class="log">
+                <form action="">
+                    <div class="name">
+                        <label>用户名</label>
+                        <input type="text" class="text" id="value_1" placeholder="请输入用户名" name="value_1" tabindex="1">
+
+                        <p class="tip_box">
+                            <span class="tip_icon tip_icon1"></span>
+                            <span class="tip tip_1"></span>
+                        </p>
+                    </div>
+                    <div class="pwd">
+                        <label>密　码</label>
+                        <div class="input_box">
+                            <input type="password" class="text" id="value_2_1" placeholder="请输入用户密码" name="value_2" tabindex="2">
+                            <input type="text" class="text" id="value_2_2" placeholder="请输入用户密码" name="value_2" tabindex="2">
+                        </div>
+                        <a class="eyes_box">
+                            <i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i>
+                        </a>
+                        <p class="tip_box">
+                            <span class="tip_icon tip_icon2"></span>
+                            <span class="tip tip_2"></span>
+                        </p>
+                    </div>
+                    <div class="verification">
+                        <label>验证码</label>
+                        <input type="text" class="text text3" id="value_3" placeholder="请输入验证码" name="value_3"
+                               tabindex="3">
+                        <img src="" alt="点击刷新"/>
+
+                        <p class="tip_box">
+                            <span class="tip_icon tip_icon3"></span>
+                            <span class="tip tip_3"></span>
+                        </p>
+                    </div>
+                    <input id="login_btn" type="button" class="submit" tabindex="3" value="登录">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="air-balloon ab-1 png"></div>
+    <div class="air-balloon ab-2 png"></div>
+    <div class="footer"></div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/2.3.1/jsencrypt.min.js"></script>
+<script type="text/javascript" src="js/fun.base.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/verification.js"></script>
+</body>
+</html>
